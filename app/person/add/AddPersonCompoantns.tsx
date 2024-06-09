@@ -4,7 +4,6 @@ import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useFormik } from "formik";
 import * as Yup from "yup";
-import { fetchLocales } from "@/libs/api/ProvinceAPI";
 import { CreatePersonData, fetchCreatePerson } from "@/libs/api/PersonAPI";
 import { PlusSquareIcon } from "@/public/assets/icons/PlusSquareIcon";
 import toast from "react-hot-toast";
